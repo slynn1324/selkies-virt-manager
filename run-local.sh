@@ -11,5 +11,5 @@ podman run -d \
   -e TITLE=virt-manager \
   -p 3001:3001 \
   -v /run/libvirt/libvirt-sock:/run/libvirt/libvirt-sock \
-  ghcr.io/slynn1324/selkies-virt-manager:latest
+  localhost/slynn1324/virt-manager:latest
 
